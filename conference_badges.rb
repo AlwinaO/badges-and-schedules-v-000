@@ -15,5 +15,4 @@ def assign_rooms(attendees)
   attendees.each_with_index do |name, index| room_assignments = index + 1
     puts "Hello, #{name}! You'll be assigned to room #{index}!"
   end
-  room_assignments
 end
